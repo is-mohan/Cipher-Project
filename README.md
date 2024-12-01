@@ -44,11 +44,11 @@ The script is interactive and requires user input for:
 - **Step 6**: You can change the `text` and `custom_key` variables directly in the Python script for predefined cases.
 - **Step 7**: You can add more test cases by modifying the script to see how it behaves with different inputs.
 
-##Contributing:
-Contributions are welcome! If you'd like to improve the code or add features, feel free to submit a pull request.
+### Contributing:
+- Contributions are welcome! If you'd like to improve the code or add features, feel free to submit a pull request.
 
-##License:
-This project is open-source and available under the MIT License.
+### License:
+- This project is open-source and available under the MIT License.
 
 
 
