@@ -1,6 +1,7 @@
-text = "aospw'u zhmgivdt rmphhag? o jabt, g uoz, q tua cgjqjsg—artk htan!"
-
+entext = "aospw'u zhmgivdt rmphhag? o jabt, g uoz, q tua cgjqjsg—artk htan!"
+text = "today's leetcode contest? i came, i saw, i got crushed—send help!"
 custom_key = 'happycoding'
+
 def vigenere(message, key, direction=1):
     key_index = 0
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
@@ -30,7 +31,8 @@ def encrypt(message, key):
 def decrypt(message, key):
     return vigenere(message, key, -1)
 
-print(f'\nEncrypted text: {text}')
+encryption = encrypt(text, custom_key)
+print(f'\nEncrypted text: {encryption}')
 print(f'Key: {custom_key}')
-decryption = decrypt(text, custom_key)
+decryption = decrypt(entext, custom_key)
 print(f'\nDecrypted text: {decryption}\n')
