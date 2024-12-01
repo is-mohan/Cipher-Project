@@ -26,4 +26,30 @@ The script is interactive and requires user input for:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
+2. Navigate to the project directory:
+   ```bash
+   cd Classic-Vigenere-Cipher
+3. Run the script:
+   ```bash
+   pyhton Cipher_Project.py
+4. You can change the text, and custom key to user passed input if you like
+
+
+### Explanation of the Steps:
+- **Step 1**: Clone the repository to your local machine using Git.
+- **Step 2**: Navigate to the project directory after cloning it.
+- **Step 3**: Run the script by executing the Python file.
+- **Step 4**: Enter the text you want to encrypt/decrypt and the custom key when prompted.
+- **Step 5**: Based on whether you're encrypting or decrypting, the program will output the respective result.
+- **Step 6**: You can change the `text` and `custom_key` variables directly in the Python script for predefined cases.
+- **Step 7**: You can add more test cases by modifying the script to see how it behaves with different inputs.
+
+##Contributing:
+Contributions are welcome! If you'd like to improve the code or add features, feel free to submit a pull request.
+
+##License:
+This project is open-source and available under the MIT License.
+
+
+
 
